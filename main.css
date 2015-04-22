@@ -1,0 +1,128 @@
+* {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	color: #424242;
+}
+
+body {
+	background-color: whitesmoke;
+	padding-top: 12px;
+}
+
+
+#todo-wrapper {
+	background-color: white;
+	max-width: 70%;
+	margin: 0 auto;
+	padding: 20px 40px;
+}
+
+#logo-plate {
+	padding: 60px;
+	max-width: 200px;
+	margin: 0 auto;
+	background-color: white;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+#todo-wrapper {
+	margin-bottom: 20px;
+	/*border-top: 2px solid #858585;*/
+}
+
+.logo-inner {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+	background-color: #afe5c0;
+}
+
+.logo-title {
+	color: white;
+	font-weight: 700;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	border-top: 4px solid white;
+	border-bottom: 12px double white;
+}
+
+
+input {
+	border: none;
+	line-height: 30px;
+	font-size: 24px;
+	padding: 16px 12px;
+	background-color: whitesmoke;
+}
+
+*:focus {
+	/*outline: 10px;*/
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: #afe5c0;
+	display: inline-block;
+	vertical-align: top;
+	/*border: 4px solid #afe5c0;*/
+}
+
+button {
+	border: none;
+	background-color: #afe5c0;
+	line-height: 30px;
+	height: 61px;
+	padding-bottom: 10px;
+	font-weight: 800;
+	font-size: 24px;
+	width: 61px;
+	display: inline-block;
+	color: white;
+	vertical-align: top;
+}
+
+button:focus {
+	outline-width: 2px;
+	outline-style: solid;
+	outline-color: whitesmoke;
+	display: inline-block;
+	vertical-align: top;
+}
+
+button:hover { cursor: pointer;}
+
+#add-item-form {
+	vertical-align: middle;
+	position: relative;
+	max-width: 320px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+#add-item-form input[type="text"] {
+	width: 71%;
+}
+
+#add-item-form:focus {
+	width: 85%;
+}
+
+#finished-todos .item {
+	text-decoration: line-through;
+}
+
+
+#todo-wrapper .mark-complete {
+	
+}
+
+
+
+
+
+
