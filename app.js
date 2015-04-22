@@ -63,8 +63,11 @@
 
 		var theItem = itemObj;
 		checkBox.onclick = function() {
-			console.log(theItem);
-			TODOAPP.completeItem(theItem);
+			if(theItem.checkBox.checked){
+				TODOAPP.completeItem(theItem);
+			} else {
+				TODOAPP.addItem(theItem);
+			}
 		}
 
 		// this.finishedTable.removeChild(itemObj.row);
